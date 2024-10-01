@@ -1,7 +1,7 @@
 ---
 - name: Hello World Playbook
-  hosts: localhost 
+  hosts: all 
   tasks:
     - name: Print Hello World
       ansible.builtin.debug:
-        msg: "hello awx test dev" 
+        msg: "Hello World" 
